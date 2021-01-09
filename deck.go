@@ -21,7 +21,6 @@ func newDeck() deck {
 		for _, value := range cardValues {
 			cards = append(cards, value+" of "+suit)
 		}
-
 	}
 
 	return cards
